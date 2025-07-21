@@ -43,7 +43,7 @@ footer {
     border-radius: 0 0 12px 12px;
 }
 .form-label, .form-control, .btn {
-    color: hsl(0, 0%, 100%);
+    color: hsl(0, 0%, 0%);
 }
 .btn-primary {
     background: #222;
