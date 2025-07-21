@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>DizerEdge Technologies</title>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css">
+    <link rel="stylesheet" href="assets/styles.css">
+    <link rel="icon" type="image/png" href="designs/favicon.png">
+    <style>
+        .slogan {
+            font-size: 1.1rem;
+            font-weight: 500;
+            color: #888 !important;
+            letter-spacing: 1px;
+        }
+        @media (max-width: 767px) {
+            .slogan {
+                display: block !important;
+                text-align: center;
+                margin-top: 0.5rem;
+                margin-left: 0;
+            }
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <nav class="navbar navbar-expand-lg">
+            <div class="container-fluid">
+                <a class="navbar-brand d-flex align-items-center" href="#home">
+                    <img src="designs/logo3.png" alt="DizerEdge Technologies Logo" class="logo">
+                    <span class="ms-2">DizerEdge Technologies</span>
+                </a>
+                <span class="navbar-text text-secondary ms-3 d-none d-md-inline slogan">Powered by AI</span>
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="collapse navbar-collapse" id="navbarNav">
+                    <ul class="navbar-nav ms-auto mb-2 mb-lg-0">
+                        <li class="nav-item"><a class="nav-link" href="#home">Home</a></li>
+                        <li class="nav-item"><a class="nav-link" href="#about">About</a></li>
+                        <li class="nav-item"><a class="nav-link" href="#contact">Contact</a></li>
+                    </ul>
+                </div>
+            </div>
+        </nav>
+    </header>
+    <main class="container">
+        <div class="row justify-content-center">
+            <div class="col-12 col-md-10 col-lg-8">
+                <section id="home" class="section home-section">
+                    <h1>Welcome to DizerEdge Technologies</h1>
+                    <p>Your partner in innovative technology solutions. We deliver cutting-edge software and digital services to help your business thrive in the modern world.</p>
+                </section>
+                <section id="about" class="section about-section">
+                    <h2>About Us</h2>
+                    <p>DizerEdge Technologies is dedicated to providing top-notch IT consulting, software development, and digital transformation services. Our team of experts leverages the latest technologies to drive success for our clients.</p>
+                </section>
+                <section id="contact" class="section contact-section">
+                    <h2>Contact Us</h2>
+                    <form id="contact-form">
+                        <div class="mb-3">
+                            <label for="name" class="form-label">Name:</label>
+                            <input type="text" id="name" name="name" class="form-control" required>
+                        </div>
+                        <div class="mb-3">
+                            <label for="email" class="form-label">Email:</label>
+                            <input type="email" id="email" name="email" class="form-control" required>
+                        </div>
+                        <div class="mb-3">
+                            <label for="message" class="form-label">Message:</label>
+                            <textarea id="message" name="message" class="form-control" required></textarea>
+                        </div>
+                        <button type="submit" class="btn btn-primary">Send</button>
+                    </form>
+                    <div id="form-message"></div>
+                </section>
+            </div>
+        </div>
+    </main>
+    <footer>
+        <p>&copy; 2025 DizerEdge Technologies. All rights reserved.</p>
+    </footer>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"></script>
+    <script src="assets/scripts.js"></script>
+</body>
+</html>
